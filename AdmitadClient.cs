@@ -10,7 +10,7 @@ public class AdmitadClient
     public async Task<WebmasterResponse?> GetWebsitesParsedAsync()
 {
     var json = await GetWebsitesAsync();
-    // Aqui acontece a mágica: transforma string em objeto C#
+    //transforma string em objeto C#
     return JsonSerializer.Deserialize<WebmasterResponse>(json);
 }
 
