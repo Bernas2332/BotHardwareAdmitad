@@ -1,0 +1,6 @@
+# Ignorar o arquivo de segredos
+appsettings.json
+
+# Ignorar as pastas de compilação (são pesadas e desnecessárias no Git)
+bin/
+obj/
